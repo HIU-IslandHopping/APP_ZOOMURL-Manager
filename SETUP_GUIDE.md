@@ -16,8 +16,7 @@
 
 2. **アプリの作成**
    - 「Develop」→「Build App」をクリック
-   - 「Server-to-Server OAuth」を選択（**推奨**）
-     - または「JWT」を選択（レガシー、非推奨）
+   - 「Server-to-Server OAuth」を選択
    - アプリ情報を入力：
      - **App Name**: `HIU冬合宿 ZOOM ROOM管理`（任意の名前）
      - **Company name**: `HIU冬合宿実行委員会`（任意の名前）
@@ -35,15 +34,6 @@
      | **Account ID** | ZOOMアカウントID |
      | **Client ID** | アプリのクライアントID  |
      | **Client Secret** | アプリのシークレットキー  |
-   
-   **JWT**（レガシー）の場合：
-   - 「App Credentials」タブを開く
-   - 以下の2つの値をコピーします：
-     
-     | 項目 | 説明 | どこから取得 |
-     |------|------|-------------|
-     | **API Key** | ZOOM API Key | App Credentials画面に表示 |
-     | **API Secret** | API Secret | 「Show」をクリックして表示 |
    
    ⚠️ **重要**: Client SecretとAPI Secretは機密情報です。安全に管理してください。
    
