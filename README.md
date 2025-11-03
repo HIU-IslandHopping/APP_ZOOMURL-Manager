@@ -1,0 +1,2 @@
+# APP_ZOOMURL-Manager
+ZOOMのURLを管理するスプレッドシートアプリです
